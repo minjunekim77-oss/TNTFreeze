@@ -1,0 +1,14 @@
+name: TNTFreeze
+version: 0.1.0-experimental
+main: dev.tntfreeze.TNTFreeze
+api-version: '1.21'
+description: Experimental per-chunk primed TNT freezing (not real lazy chunks).
+commands:
+  tntfreeze:
+    description: Add, remove, or list chunks where primed TNT is frozen.
+    usage: /tntfreeze add|remove|list
+    permission: tntfreeze.admin
+permissions:
+  tntfreeze.admin:
+    description: Allows management of TNT freeze chunks.
+    default: op
